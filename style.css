@@ -11,13 +11,13 @@ body {
     background-color: #6a43ff;
     height: 30vh;
     letter-spacing: 1px;
-    filter: drop-shadow(0 0 30px #6a43ff);
+    /* filter: drop-shadow(0 0 30px #6a43ff); */
 }
 
 #bottom-section {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-direction: column;
     background-color: #f5f3f4;
     height: 70vh;
@@ -32,8 +32,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     color: #6a43ff;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: bold;
     color: #5e5a73;
 }
