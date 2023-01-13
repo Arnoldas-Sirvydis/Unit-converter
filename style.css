@@ -3,10 +3,7 @@ body {
 }
 
 #top-section {
-    display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: column;
     color: #f3f3f3;
     background-color: #6a43ff;
     height: 30vh;
@@ -15,10 +12,7 @@ body {
 }
 
 #bottom-section {
-    display: flex;
-    align-items: center;
     justify-content: space-evenly;
-    flex-direction: column;
     background-color: #f5f3f4;
     height: 70vh;
     filter: drop-shadow(0 0 30px #f3f3f3);
@@ -29,10 +23,7 @@ body {
     width: 70vw;
     height: 15vh;
     border-radius: 5px;
-    display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: column;
     color: #6a43ff;
     font-size: 18px;
     font-weight: bold;
@@ -84,4 +75,14 @@ button:active {
 
 #underline {
     border-bottom: 2px solid #f3f3f3;
+}
+
+#top-section,
+#bottom-section,
+#length, 
+#volume, 
+#mass {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
